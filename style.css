@@ -26,7 +26,10 @@
     color: #333333;
   }
   
-  .cuisine img {
-    width: 65%;
-    height: 500px;
+  .holi img {
+    width: 100%;
+  }
+  .diwali img {
+    width: 100%;
+    height: 700px;
   }
