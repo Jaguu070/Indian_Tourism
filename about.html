@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Ysabeau+SC:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Karla:wght@300&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <style>
+      .header {
+        display: flex;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Ysabeau SC', sans-serif;
+        /* border: 2px solid grey; */
+        height: 57px;
+        background-color: rgb(26, 46, 68);
+        position: sticky;
+        top: 0px;
+        right: 0px;
+    }
+
+    h3 {
+        font-family: 'Caveat', cursive;
+        font-size: 25px;
+        color: whitesmoke;
+        cursor: pointer;
+    }
+
+    h3:hover {
+        text-shadow: 2px 2px rgb(128, 182, 182);
+    }
+
+    .left {
+        margin: -14px 28px;
+        font-weight: bold;
+        display: flex;
+    }
+
+    .left img {
+        padding: 20px 14px;
+        height: 45px;
+        width: 45px;
+    }
+
+    .mid {
+        display: block;
+        width: 37%;
+        margin: 0px auto;
+
+    }
+
+    .navbar li {
+        display: flex;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        padding: 15px 15px;
+        font-weight: bold;
+        color: whitesmoke;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: beige;
+        text-decoration: underline;
+    }
+
+    .flag img {
+        height: 25px;
+        width: 35px;
+        padding: 14px 28px;
+    }
+
+    .right {
+        display: flex;
+        margin: 12px 21px;
+    }
+
+    .ram {
+        padding: 0px 15px;
+    }
+
+    #btn {
+
+        font-family: 'Fasthand', cursive;
+        font-family: 'Ysabeau SC', sans-serif;
+        font-weight: bold;
+        padding: 3px 13px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    #btn:hover {
+        color: white;
+        background-color: rgb(26, 46, 68);
+
+    }
+
+    #input {
+        padding: 2px 20px;
+        border: 2px solid grey;
+        border-radius: 25px;
+        cursor: pointer;
+
+    }
+
+    #input:hover {
+        color: white;
+        background-color: rgb(26, 46, 68);
+        ;
+    }
+
+    .right img {
+        width: 50px;
+        height: 50px;
+    }
+        h1 {
+  text-align: center;
+  color: #333333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about-content {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.about-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.about-description {
+  font-size: 18px;
+  color: #666666;
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+
+    </style>
+</head>
+<body>
+  <header class="header">
+    <div class="left">
+        <img src="s-fotor-20230710202210.png" alt="">
+        <h3>Bharat Darshan</h3>
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="languages\service.html">Service</a></li>
+            <li><a href="#">collection</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </div>
+    <div class="flag">
+        <a href="#"><img src="onkarphoto-dOsJ7YIFSqM-unsplash.jpg" alt=""></a>
+    </div>
+    <div class="right">
+        <div class="ram">
+            <button class="ram" id="btn" placeholder="Log in">Log in</button>
+        </div>
+        <div class="ram">
+        </div>
+        <input type="search" class="ram" id="input" placeholder="search">
+
+
+    </div>
+</header>
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="video.mp4" >
+    </video>
+        <!-- Here is an example of an about section that shows an image, title and description of your tourism website -->
+<div class="about-section">
+    <img src="https://source.unsplash.com/400x400/?tourism" alt="Place Image" class="card-image">
+    <div class="about-content">
+      <h2 class="about-title">Welcome to Bharat Darshan</h2>
+      <p class="about-description">Bharat Darshan is a tourism website that helps you discover and book the best travel experiences around the world. Whether you are looking for adventure, culture, nature, or relaxation, we have something for you. We work with local experts and partners to offer you authentic and personalized tours and activities. Our mission is to make travel easy, fun and memorable for everyone.</p>
+    </div>
+  </div>
+  
+  <!-- You can add more about sections as needed -->
+  
+    </div>
+    
+    
+</body>
+</html>
